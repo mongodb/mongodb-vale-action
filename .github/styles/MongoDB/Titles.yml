@@ -1,0 +1,7 @@
+extends: capitalization
+message: "'%s' should be in AP title case."
+link: 'https://docs.mongodb.com/meta/style-guide/style/titles-and-headings/'
+level: error 
+scope: heading
+match: $title
+style: AP
