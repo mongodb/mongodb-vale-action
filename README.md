@@ -83,7 +83,7 @@ This action currently depends on the following GitHub actions:
 
 # Install Vale Rules for the CLI
 
-1. [Install vale](https://vale.sh/docs/vale-cli/installation/](https://github.com/10gen/mongodb-vale/tree/main).
+1. [Install vale](https://vale.sh/docs/vale-cli/installation/).
 
 2. Install the ``vale`` rules and ``vale.ini`` configuration file.
 The most convenient way to keep your ``vale`` binary configured with
@@ -123,3 +123,12 @@ location, make sure that it references the correct set of rules.
 
 If you run ``vale`` with a different set of rules, you can create
 a separate alias that references a different ``vale.ini`` file.
+
+# Report an Issue
+
+If you encounter an issue with the Github action or any of the rules,
+please create a JIRA ticket in the appropriate epic. Make sure to
+include the name of the rule and a sentence or paragraph that
+demonstrates the issue.
+
+For the TDBX rules, create a ticket in the [DOCSP-31883](https://jira.mongodb.org/browse/DOCSP-31883) epic.
