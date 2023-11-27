@@ -1,0 +1,10 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+link: 'https://www.mongodb.com/docs/meta/style-guide/terminology/alphabetical-terms/#w'
+level: error
+ignorecase: true
+action:
+  name: replace
+swap:
+  desire: want
+  wish: want
