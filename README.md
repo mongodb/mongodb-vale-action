@@ -10,7 +10,7 @@ Additional existing and new rules should be added after we determine that
 they effectively identify style guide issues and generate low numbers of
 false positives.
 
-:warning: Changes between rulesets:
+:warning: **Changes between rulesets:**
 > Although the rules share similar names and directory structure to the
 > ones in the ``main`` branch of ``mongodb-vale``, the logic contained within
 > them varies due to changes in severity levels and improvements in identifying
